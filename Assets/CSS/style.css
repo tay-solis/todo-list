@@ -1,0 +1,115 @@
+html{
+  height: 100%;
+}
+
+body{
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 2px;
+  background: -webkit-linear-gradient(170deg,
+              rgba(255,177,196,1) 19%,
+              rgba(186,238,255,1) 72%);
+  background: -moz-linear-gradient(170deg,
+              rgba(255,177,196,1) 19%,
+              rgba(186,238,255,1) 72%);
+  background: -ms-linear-gradient(170deg,
+              rgba(255,177,196,1)
+              rgba(186,238,255,1) 72%);
+  background: -o-linear-gradient(170deg,
+              rgba(255,177,196,1) 19%,
+              rgba(186,238,255,1) 72%);
+  background: linear-gradient(170deg,
+              rgba(255,177,196,1) 19%,
+              rgba(186,238,255,1) 72%);
+
+}
+
+div{
+  background: rgba(255,255,255, 0.75);
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 200px;
+  border: solid white 1px;
+  border-radius: 5px 13px 5px;
+  overflow: hidden;
+}
+
+h1{
+  font-size: 30px;
+  padding: 10px 20px;
+  background: rgb(213, 214, 232);
+  margin: 0;
+  color: white;
+  text-transform: uppercase;
+}
+
+.fa-bookmark{
+  float: right;
+}
+
+input{
+  border: solid white 0px;
+  width: 100%;
+  font-size: 20px;
+  text-indent: 25px;
+  height: 40px;
+  letter-spacing: 2px;
+
+}
+
+input:focus{
+	outline: none;
+  color: rgb(110, 110, 110);
+}
+span{
+  background-color: rgba(255, 169, 145, 1);
+  width: 0px;
+  opacity: 0;
+  display: inline-block;
+  text-align: center;
+  text-align: center;
+  margin-right: 25px;
+  transition: 0.2s linear;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: rgb(110, 110, 110);
+}
+
+li{
+  /* text-indent: 10%; */
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+li:nth-child(2n){
+	background: rgba(255,255,255, 0.75);
+}
+
+li:hover span{
+  width: 40px;
+  opacity: 1;
+}
+
+i{
+  margin: 0;
+  color: rgba(255,255,255,0.7);
+}
+
+.completed{
+  text-decoration: line-through;
+  color: rgba(140, 140, 140, 0.25);
+}
+
+.openArchive{
+  text-align: right;
+}
+
+#archive{
+  text-indent: 25px;
+  display: none;
+}
